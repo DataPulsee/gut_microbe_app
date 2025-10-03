@@ -1,0 +1,11 @@
+{
+    "model_name": "XGBoost",
+    "metrics": {
+        "Accuracy": 0.8666666666666667,
+        "F1": 0.8611111111111112,
+        "Precision": 0.8571428571428572,
+        "Recall": 0.9,
+        "AUC": NaN
+    },
+    "best_params": {}
+}
