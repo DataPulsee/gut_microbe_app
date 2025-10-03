@@ -105,7 +105,7 @@ elif page == "CAD Prediction Tool":
             if "Status" not in data.columns:
                 st.error("⚠️ Dataset must contain a 'Status' column with 'cad' or 'control'")
             else:
-                model = pickle.load(open("best_model_japan.pkl", "rb"))
+                model = pickle.load(open("cad_model.pkl", "rb"))
                 with open("cad_features.json", "r") as f:
                     expected_features = json.load(f)
 
