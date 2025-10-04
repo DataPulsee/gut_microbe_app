@@ -1,17 +1,132 @@
 {
-    "model_name": "XGBoost",
-    "metrics": {
-        "Accuracy": 1.0,
-        "F1": 1.0,
-        "Precision": 1.0,
-        "Recall": 1.0,
-        "AUC": 0.0
+  "model_name": "XGBoost",
+  "importance_type": "model_feature_importances_",
+  "n_classes": 2,
+  "feature_space": {
+    "total_after_encoding": 9559
+  },
+  "top_k": 20,
+  "features": [
+    {
+      "rank": 1,
+      "feature": "ALCOHOL_FREQUENCY",
+      "importance": 0.8978822231292725,
+      "norm_importance": 0.9325001049788855
     },
-    "best_params": {
-        "n_estimators": 400,
-        "max_depth": 4,
-        "learning_rate": 0.1,
-        "subsample": 0.9,
-        "colsample_bytree": 0.9
+    {
+      "rank": 2,
+      "feature": "AGE_YEARS",
+      "importance": 0.014329819940030575,
+      "norm_importance": 0.014882306670284935
+    },
+    {
+      "rank": 3,
+      "feature": "MENTAL_ILLNESS_Yes",
+      "importance": 0.007450388744473457,
+      "norm_importance": 0.0077376387541584525
+    },
+    {
+      "rank": 4,
+      "feature": "EXERCISE_FREQUENCY",
+      "importance": 0.0042869290336966515,
+      "norm_importance": 0.004452211738892631
+    },
+    {
+      "rank": 5,
+      "feature": "k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__cc_115",
+      "importance": 0.0038217513356357813,
+      "norm_importance": 0.0039690990977226046
+    },
+    {
+      "rank": 6,
+      "feature": "WEIGHT_KG",
+      "importance": 0.0037954242434352636,
+      "norm_importance": 0.003941756963522408
+    },
+    {
+      "rank": 7,
+      "feature": "MENTAL_ILLNESS_No",
+      "importance": 0.003406497649848461,
+      "norm_importance": 0.003537835290939569
+    },
+    {
+      "rank": 8,
+      "feature": "k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Collinsella",
+      "importance": 0.0025114319287240505,
+      "norm_importance": 0.002608260278303033
+    },
+    {
+      "rank": 9,
+      "feature": "COUNTRY_OF_BIRTH_United Kingdom",
+      "importance": 0.0024240599013864994,
+      "norm_importance": 0.0025175196192658905
+    },
+    {
+      "rank": 10,
+      "feature": "k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__;f__;g__",
+      "importance": 0.00221083196811378,
+      "norm_importance": 0.0022960706752515325
+    },
+    {
+      "rank": 11,
+      "feature": "k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Aeromonadales;f__Aeromonadaceae;g__Tolumonas",
+      "importance": 0.0022017972078174353,
+      "norm_importance": 0.002286687579442554
+    },
+    {
+      "rank": 12,
+      "feature": "k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Alteromonadaceae;g__",
+      "importance": 0.0021961096208542585,
+      "norm_importance": 0.002280780707356642
+    },
+    {
+      "rank": 13,
+      "feature": "k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Oceanospirillales;f__Saccharospirillaceae;g__Reinekea",
+      "importance": 0.0021143676713109016,
+      "norm_importance": 0.0021958871939683224
+    },
+    {
+      "rank": 14,
+      "feature": "k__Bacteria;p__Actinobacteria;c__Thermoleophilia;o__Gaiellales;f__Gaiellaceae;g__",
+      "importance": 0.0021122440230101347,
+      "norm_importance": 0.0021936816683298913
+    },
+    {
+      "rank": 15,
+      "feature": "k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Methylophilales;f__;g__",
+      "importance": 0.0021011766511946917,
+      "norm_importance": 0.0021821875935905863
+    },
+    {
+      "rank": 16,
+      "feature": "k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__OM60;g__",
+      "importance": 0.0020790649577975273,
+      "norm_importance": 0.0021592233830483
+    },
+    {
+      "rank": 17,
+      "feature": "k__Bacteria;p__Actinobacteria;c__Thermoleophilia",
+      "importance": 0.002070678398013115,
+      "norm_importance": 0.002150513479145625
+    },
+    {
+      "rank": 18,
+      "feature": "VEGETABLE_FREQUENCY_3",
+      "importance": 0.0020295383874326944,
+      "norm_importance": 0.002107787313957308
+    },
+    {
+      "rank": 19,
+      "feature": "k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Eubacteriaceae;g__Pseudoramibacter_Eubacterium",
+      "importance": 0.0019474939908832312,
+      "norm_importance": 0.002022579692707534
+    },
+    {
+      "rank": 20,
+      "feature": "k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Thiotrichales;f__Thiotrichaceae;g__Thiothrix",
+      "importance": 0.0019044415093958378,
+      "norm_importance": 0.0019778673212266975
     }
+  ],
+  "created_at": "2025-10-04 17:26:23"
 }
